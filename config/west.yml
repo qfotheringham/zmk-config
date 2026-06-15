@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-config-charybdis
+      url: https://github.com/choovick/zmk-config-charybdis.git
+      revision: main
+      path: modules/zmk-config-charybdis
   self:
     path: config
